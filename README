@@ -1,0 +1,13 @@
+ELLIPTICAL POWER LAW PROFILE LENS
+SAMPLE IMPLEMENTATION
+
+This is a sample implementation to compute the angular dependency of the
+deflection of the elliptical power law profile lens (Tessore & Metcalf 2015).
+
+In order to compute the deflection from the contained `epl_omega` function,
+you must multiply it by the radial dependency:
+
+    alpha = (2 b)/(1 + q) (b/R)^(t - 1) omega(phi)
+
+You are free to use this code in any way you like, but if you do, please cite
+Tessore & Metcalf (2015) in your resulting publications.
